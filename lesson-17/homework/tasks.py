@@ -68,7 +68,6 @@ def classify_duration(duration):
 
 movies["Duration_Class"] = movies["duration"].apply(classify_duration)
 
-
 # Using pipe
 # Pipeline on Titanic
 def filter_survived(df):
